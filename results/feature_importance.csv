@@ -1,0 +1,28 @@
+Feature,Importance
+numeric__lat,0.1741224478730415
+numeric__lon,0.17110734407973027
+numeric__hour,0.13036091657661206
+numeric__day_sin,0.12116621618871203
+numeric__day_cos,0.08350706175225683
+numeric__day_of_week,0.07695524630297138
+numeric__month,0.04579397526709119
+numeric__month_cos,0.04101578808040398
+numeric__month_sin,0.035371733202744296
+numeric__collar_id,0.02802425900992469
+numeric__is_weekend,0.019794594815420292
+categorical__name_Gothami,0.009123250669612087
+categorical__sex_Male,0.00797576369065086
+categorical__name_female_1,0.007586952340462482
+categorical__name_recollared female,0.007491235932119626
+categorical__name_Mina,0.0072746783561211375
+categorical__sex_Female,0.006890816371756253
+categorical__name_Dewmi,0.005586112003660339
+categorical__name_Talatha,0.004569483946076414
+categorical__name_Dona,0.003716785115718406
+categorical__name_Kasun,0.003472572508527134
+categorical__name_Tara Devi,0.0025036445819542155
+categorical__name_Rahu,0.0018213497080075448
+categorical__name_Wilmini,0.0016832245220849578
+categorical__name_Pazhani,0.0014285439308203234
+categorical__name_Illuk,0.0011947753326937874
+categorical__name_Damien,0.000461227840825826

@@ -1,0 +1,76 @@
+{
+  "rows_in_original_dataset": 86747,
+  "rows_after_valid_movement_filter": 16400,
+  "class_distribution": {
+    "High Movement": 5467,
+    "Low Movement": 5467,
+    "Moderate Movement": 5466
+  },
+  "best_model": "LightGBM",
+  "best_f1_weighted": 0.4809347905228592,
+  "labels": [
+    "Low Movement",
+    "Moderate Movement",
+    "High Movement"
+  ],
+  "features": [
+    "collar_id",
+    "name",
+    "sex",
+    "lat",
+    "lon",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "day_sin",
+    "day_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "speed_thresholds_kmh": {
+    "low_to_moderate": 0.08987403896455427,
+    "moderate_to_high": 0.23785586055322183
+  },
+  "random_forest_grid_search": {
+    "best_params": {
+      "model__max_depth": 12,
+      "model__min_samples_leaf": 1
+    },
+    "best_cv_weighted_f1": 0.4647714870834312,
+    "tuning_sample_size": 5000
+  },
+  "classification_report": {
+    "Low Movement": {
+      "precision": 0.5363475177304965,
+      "recall": 0.553016453382084,
+      "f1-score": 0.5445544554455446,
+      "support": 1094.0
+    },
+    "Moderate Movement": {
+      "precision": 0.40653153153153154,
+      "recall": 0.3302836230558097,
+      "f1-score": 0.36446239273094394,
+      "support": 1093.0
+    },
+    "High Movement": {
+      "precision": 0.497626582278481,
+      "recall": 0.57548032936871,
+      "f1-score": 0.5337293169282987,
+      "support": 1093.0
+    },
+    "accuracy": 0.48628048780487804,
+    "macro avg": {
+      "precision": 0.4801685438468364,
+      "recall": 0.48626013526886797,
+      "f1-score": 0.4809153883682624,
+      "support": 3280.0
+    },
+    "weighted avg": {
+      "precision": 0.4801856715827764,
+      "recall": 0.48628048780487804,
+      "f1-score": 0.4809347905228592,
+      "support": 3280.0
+    }
+  }
+}
