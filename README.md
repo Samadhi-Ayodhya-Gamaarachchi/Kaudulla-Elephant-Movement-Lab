@@ -42,7 +42,3 @@ Random Forest hyperparameters are tuned with a compact 3-fold GridSearchCV (max_
 ## AI Usage Acknowledgment
 
 Generative AI tools, including ChatGPT, were used as supporting resources during the development of this project, primarily for guidance on dashboard design, code structure, documentation, and Jupyter Notebook organisation.
-
-## Submission scope
-
-This project package intentionally contains the notebook and local dashboard project only. It does not include a GitHub repository link or a presentation video.
